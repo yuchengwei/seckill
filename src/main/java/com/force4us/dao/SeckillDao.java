@@ -2,6 +2,7 @@ package com.force4us.dao;
 
 import com.force4us.entity.Seckill;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
 
 import java.util.Date;
 import java.util.List;
@@ -10,6 +11,7 @@ import java.util.Map;
 /**
  * Created by chengjinqian on 2017/4/17.
  */
+@Repository
 public interface SeckillDao {
 
     /**
